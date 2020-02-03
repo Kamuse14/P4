@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'kingthings_petrock_lightRg';
+    src: url('fonts/Kingthings_Petrock_light-webfont.eot');
+    src: url('fonts/Kingthings_Petrock_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Kingthings_Petrock_light-webfont.woff2') format('woff2'),
+         url('fonts/Kingthings_Petrock_light-webfont.woff') format('woff'),
+         url('fonts/Kingthings_Petrock_light-webfont.ttf') format('truetype'),
+         url('fonts/Kingthings_Petrock_light-webfont.svg#kingthings_petrock_lightRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -295,10 +307,7 @@ a:hover {
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
-    font-size: 25px;
-    font-weight: normal;
-    font-weight: 600;
-    line-height: 44px;
+    font: 27px 'kingthings_petrock_lightRg';
 }
 
 .navbar-brand img {
@@ -809,10 +818,6 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
-
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
 }
@@ -822,7 +827,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {

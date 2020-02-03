@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 P4
 =======
 P4 Amélioration du référencement :
@@ -7,4 +6,3 @@ P4 Amélioration du référencement :
 3- Amélioration du SEO du site. 
 4- Accessibilité du site web. 
 5- Comparaison des résultats.
->>>>>>> parent of 27c9ef8... Delete README.md
