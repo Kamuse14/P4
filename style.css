@@ -1001,6 +1001,9 @@ h3 {
     .a-block {
         padding: 0 10px;
     }
+    #bloc-3-what-i-do .btn { /*bouton moins large en mobile*/
+        white-space: pre-wrap;
+    }
     .btn-dwn {
         display: none;
     }
