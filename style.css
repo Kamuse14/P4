@@ -19,8 +19,6 @@ body {
     -moz-osx-font-smoothing: grayscale;*/
 }
 
-
-
 a,
 button {
     transition: all .3s ease-in-out;
@@ -99,10 +97,6 @@ blockquote p {
 .bg-t-edge {
     background: top no-repeat;
 }
-
-/* pas d'effet#bloc-6 {
-    color: white;
-}*/
 
 .bloc-bg-texture::before {
     content: "";
@@ -452,10 +446,10 @@ h4 {
     justify-content: space-around;
 }
 
-.fa {
+/*.fa {
     display: inline-block;
     font: normal normal normal 14px;
-}
+}*/
 
 .facebook-f-brands {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg aria-hidden='true' focusable='false' data-prefix='fab' data-icon='facebook-f' class='svg-inline--fa fa-facebook-f fa-w-10' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512'%3E%3Cpath fill='currentColor' d='M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z'%3E%3C/path%3E%3C/svg%3E");
@@ -626,7 +620,7 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
