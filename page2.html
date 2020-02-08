@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="description" content="Vous souhaitez en apprendre un peu plus sur ce que nous pouvons vous apporter : contactez La chouette agence">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="robots" content="index, nofollow">
+
     <link rel="shortcut icon" type="image/png" href="img/favicon.jpg">
     <!-- ces fichiers n'existent pas (encore ?)
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
@@ -18,9 +20,9 @@
  
 	<script src="./js/jquery-2.1.0.js"></script> 
 	<script src="./js/bootstrap.js"></script>
-	<script src="./js/blocs.js"></script><!--
+	<script src="./js/blocs.js"></script>
 	<script src="./js/jquery.touchSwipe.js" defer></script>
-	<script src="./js/gmaps.js"></script> -->
+	<script src="./js/gmaps.js"></script>
 	
     <title>Contact - La chouette agence</title>
     
@@ -79,30 +81,31 @@
 <!-- bloc-7 -->
 <section class="bloc bgc-white l-bloc" id="bloc-7">
 	<div class="container bloc-lg">
-		<h2 class="tc-orange">Formulaire</h2>
+		
 		<div class="row">
 			<div class="col-sm-6">
+				<h2 class="tc-orange">Formulaire</h2>
 				<form id="form_1" method="post" action="includes/form_1.php">
 					<div class="form-group">
-						<label>
+						<label for="name">
 							Nom
 						</label>
 						<input id="name" class="form-control" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="email">
 							Adresse email
 						</label>
 						<input id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="input_504">
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="text" required id="input_504" />
+						<input id="input_504" class="form-control" type="text" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="message">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 						</label>
 						<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
@@ -113,6 +116,7 @@
 				</form>
 			</div>
 			<div class="col-sm-6">
+				<h2 class="tc-orange">Adresse postale</h2>
 				<p>
 					contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
 				</p>
@@ -138,22 +142,22 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href=""><span class="fa fa-twitter icon-md"></span></a>
+							<a class="social" href="https://twitter.com/"><span class="twitter-brands fa fa-twitter icon-md "></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href=""><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social" href="https://fr-fr.facebook.com/"><span class="facebook-f-brands fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href=""><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social" href="https://dribbble.com/"><span class="dribbble-brands fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href=""><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social" href="https://www.instagram.com/"><span class="instagram-brands fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
 				</div>
