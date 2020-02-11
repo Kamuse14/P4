@@ -51,8 +51,6 @@ blockquote p {
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
     background-size: cover;
     position: relative;
 }
@@ -473,7 +471,6 @@ h4 {
         top: 50%;
         right: 20px;
         transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
@@ -656,12 +653,10 @@ a[data-lightbox]:hover::before {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
 }
 
 a[data-lightbox]:hover img {
     opacity: 0.6;
-    -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
 }
 
@@ -902,6 +897,7 @@ h3 {
     .b-parallax {
         background-attachment: scroll;
     }
+    /*menu hamburger de navigation dépliant */
     .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
@@ -914,8 +910,6 @@ h3 {
     .site-navigation {
         position: inherit;
         transform: none;
-        -webkit-transform: none;
-        -ms-transform: none;
     }
     .nav > li {
         margin-top: 0;
@@ -952,7 +946,6 @@ h3 {
     .navbar-collapse {
         padding: 0;
         overflow-x: hidden;
-        -webkit-box-shadow: none;
         box-shadow: none;
     }
     .navbar-brand img {
@@ -967,6 +960,7 @@ h3 {
         float: left;
         margin-left: 10px;
     }
+    /* les BLOCS */
     .bloc {
         padding-left: 0;
         padding-right: 0;
@@ -992,7 +986,7 @@ h3 {
     .a-block {
         padding: 0 10px;
     }
-    #bloc-3-what-i-do .btn { /*bouton moins large en mobile*/
+    #bloc-3-what-i-do .btn { /*bouton contact moins large en mobile*/
         white-space: pre-wrap;
     }
     .btn-dwn {
