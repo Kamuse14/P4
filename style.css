@@ -407,6 +407,9 @@ h4 {
 .tc-orange {
     color: #CB4F12;
 }
+cite {
+    color:#575757;
+}
 
 /*couleur du background des boutons modifiée au survol*/
 .btn-atomic-tangerine {
